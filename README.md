@@ -155,3 +155,20 @@ To monitor progress, use the kubectl get service command with the --watch argume
 ```
 kubectl get service azure-vote-front --watch
 ```
+
+The EXTERNAL-IP output for the azure-vote-front service will initially show as pending.
+
+Output
+
+Copy
+NAME               TYPE           CLUSTER-IP   EXTERNAL-IP   PORT(S)        AGE
+azure-vote-front   LoadBalancer   10.0.37.27   <pending>     80:30572/TCP   6s
+Once the EXTERNAL-IP address changes from pending to an actual public IP address, use CTRL-C to stop the kubectl watch process. The following example output shows a valid public IP address assigned to the service:
+
+Output
+
+通过公网LB ip 即可访问到应用成功
+
+Copy
+azure-vote-front   LoadBalancer   10.0.37.27   <font color="red">52.179.23.131</font>   80:30572/TCP   2m
+To see the Azure Vote app in action, open a web browser to the external IP address of your service.
