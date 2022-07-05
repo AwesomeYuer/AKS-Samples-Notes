@@ -1,10 +1,35 @@
 # AKS-Samples-Notes
 
-教程：部署 Azure Kubernetes 服务 (AKS) 群集
+# 教程：部署 Azure Kubernetes 服务 (AKS) 群集
+
 https://docs.microsoft.com/zh-cn/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli
 
-快速入门：使用 Azure 门户部署 Azure Kubernetes 服务 (AKS) 群集
+# 快速入门：使用 Azure 门户部署 Azure Kubernetes 服务 (AKS) 群集
+
 https://docs.microsoft.com/zh-cn/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli
+
+
+
+
+
+# Azure CLI 与 Azure PowerShell
+Azure CLI 和 Azure PowerShell 都是命令行工具，可用于创建和管理 Azure 资源。 两者都是跨平台的，可安装在 Windows、macOS 和 Linux 上。
+
+## Azure CLI
+
+跨平台命令行接口，可安装在 Windows、macOS、Linux 上
+在 Windows PowerShell、Cmd、Bash 和其他 Unix shell 中运行。
+
+## Azure PowerShell
+跨平台 PowerShell 模块，在 Windows、macOS 和 Linux 上运行
+需要 Windows PowerShell 或 PowerShell
+
+
+# 选择正确的 Azure 命令行工具
+
+https://docs.microsoft.com/zh-cn/azure/developer/azure-cli/choose-the-right-azure-command-line-tool
+
+
 
 Azure CLI
 
@@ -42,6 +67,7 @@ vi azure-vote.yaml.
 ```
 
 Using the Azure Cloud Shell editor
+
 https://docs.microsoft.com/en-us/azure/cloud-shell/using-cloud-shell-editor
 
 ```
